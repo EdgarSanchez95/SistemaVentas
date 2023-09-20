@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CapaPresentacion</id>
+    <version>1.0.0</version>
+    <authors>CapaPresentacion</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="FontAwesome.Sharp" version="6.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\edgar\source\repos\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.runtimeconfig.json" target="lib\net6.0-windows7.0\CapaPresentacion.runtimeconfig.json" />
+    <file src="C:\Users\edgar\source\repos\CapaPresentacion\bin\Debug\net6.0-windows\CapaPresentacion.dll" target="lib\net6.0-windows7.0\CapaPresentacion.dll" />
+  </files>
+</package>
