@@ -57,7 +57,7 @@
             menu.Items.AddRange(new ToolStripItem[] { menuUsuarios, menuMantenedor, menuVentas, menuCompras, menuClientes, menuProveedores, menuReportes, menuAcercade });
             menu.Location = new Point(0, 82);
             menu.Name = "menu";
-            menu.Size = new Size(864, 73);
+            menu.Size = new Size(845, 73);
             menu.TabIndex = 0;
             menu.Text = "menuStrip1";
             menu.ItemClicked += menuStrip1_ItemClicked;
@@ -242,7 +242,7 @@
             menuTitulo.Location = new Point(0, 0);
             menuTitulo.Name = "menuTitulo";
             menuTitulo.RightToLeft = RightToLeft.Yes;
-            menuTitulo.Size = new Size(864, 82);
+            menuTitulo.Size = new Size(845, 82);
             menuTitulo.Stretch = false;
             menuTitulo.TabIndex = 1;
             menuTitulo.TabStop = true;
@@ -251,10 +251,10 @@
             // 
             // contenedor
             // 
-            contenedor.Dock = DockStyle.Fill;
-            contenedor.Location = new Point(0, 0);
+            contenedor.AutoSize = true;
+            contenedor.Location = new Point(0, 158);
             contenedor.Name = "contenedor";
-            contenedor.Size = new Size(864, 553);
+            contenedor.Size = new Size(848, 481);
             contenedor.TabIndex = 3;
             contenedor.Paint += contenedor_Paint;
             // 
@@ -297,7 +297,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(864, 553);
+            ClientSize = new Size(845, 631);
             Controls.Add(lblUsuario);
             Controls.Add(label3);
             Controls.Add(label1);

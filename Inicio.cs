@@ -45,7 +45,7 @@ namespace CapaPresentacion
             {
                 bool encontrado = listaPermisos.Any(m => m.NombreMenu == iconmenu.Name);
 
-                if(encontrado == false)
+                if (encontrado == false)
                 {
                     iconmenu.Visible = false;
                 }
